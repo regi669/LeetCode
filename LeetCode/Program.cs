@@ -1,6 +1,6 @@
 ﻿using LeetCode.Solutions;
 
-ZigZagConvert ps = new();
+LongestCommonPrefixProblem rt = new();
 
-string len = ps.Convert("PAYPALISHIRING", 3);
-int x = 1;
+string area = rt.LongestCommonPrefix(["", "b"]);
+Console.WriteLine();
