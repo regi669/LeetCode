@@ -1,6 +1,14 @@
-﻿using LeetCode.Solutions;
+﻿using LeetCode.BaseClassess;
+using LeetCode.Solutions;
 
-LongestCommonPrefixProblem rt = new();
+MergeNSortedLists mn = new();
 
-string area = rt.LongestCommonPrefix(["", "b"]);
+IList<ListNode> lists = new List<ListNode>()
+{
+    new(2),
+    null,
+    new(-1)
+};
+
+ListNode res = mn.MergeKLists(lists.ToArray());
 Console.WriteLine();
